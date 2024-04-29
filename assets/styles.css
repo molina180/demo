@@ -1,0 +1,99 @@
+/* styles.css */
+
+/* Estilo para el cuerpo de la página */
+body {
+    background-color: #f3f3f3; /* Color de fondo */
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+}
+
+/* Estilo para los encabezados */
+h1, h2, h3 {
+    color: #333; /* Color del texto */
+    text-align: center; /* Alineación centrada */
+}
+
+h2 {
+    background-color: #ddd; /* Color de fondo */
+}
+
+/* Estilo para los gráficos */
+.plot-container {
+    background-color: #fff; /* Color de fondo del área del gráfico */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    max-width: 1000px; /* Establece el ancho máximo del contenedor */
+    padding: 20px; /* Agrega relleno al contenedor para crear márgenes */
+}
+
+/* Estilo para los dropdowns */
+#json-dropdown,
+#data-dropdown {
+    margin-bottom: 20px; /* Agrega un margen inferior de 20px */
+    width: 30%; /* Ajusta el ancho al 100% del contenedor */
+}
+
+.plot-title {
+    color: #555; /* Color del título del gráfico */
+}
+
+.plot-axis-title {
+    color: #777; /* Color de las etiquetas de los ejes */
+}
+
+/* Estilo para los botones y controles desplegables */
+button, .dropdown {
+    background-color: #007bff; /* Color de fondo del botón y del control desplegable */
+    color: #fff; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    border: none; /* Sin borde */
+}
+
+button:hover, .dropdown:hover {
+    background-color: #0056b3; /* Color de fondo cuando el cursor está sobre el botón o el control desplegable */
+}
+
+/* Estilos personalizados */
+.containers {
+    background-color: #fff;
+    position: relative;
+    margin-top: 20px; /* Ajustado para evitar conflictos con margin-bottom */
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 1000px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Agregar margen inferior */
+
+}
+
+.buttons {
+    position: relative;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px; /* Agregar margen inferior */
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    position: top;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+}
+
